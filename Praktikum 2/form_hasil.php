@@ -22,9 +22,9 @@
             </tr>
             <?php require_once "proses_nilai.php"; ?>
             <tr>
-                 <td><?= $nama; ?></td>
-                 <td><?= $matkul; ?></td>
-                 <td><?= $tugas; ?></td>
+                <td><?= $nama; ?></td>
+                <td><?= $matkul; ?></td>
+                <td><?= $tugas; ?></td>
                 <td><?= $uts; ?></td>
                 <td><?= $uas; ?></td>
                 <td><?= number_format($total_nilai, 0); ?></td>
